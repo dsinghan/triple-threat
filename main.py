@@ -1,6 +1,6 @@
 from core.game import Game
 from models.team import Team
-from data.utils import STARTING_TEAM
+from data.constants import STARTING_TEAM
 
 def main():
     team = Team(STARTING_TEAM)

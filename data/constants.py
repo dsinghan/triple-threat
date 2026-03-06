@@ -15,6 +15,17 @@ STARTING_TEAM = {
     "support": STARTING_SUPPORT,
 }
 
+STARTING_SHOP = {
+    "gear": [
+        {"name": "headband", "points": 5, "cost": 10},
+        {"name": "wristband", "points": 5, "cost": 10},
+    ],
+    "boosters": [
+        {"name": "protein shake", "points": 10, "cost": 20},
+        {"name": "massage gun", "points": 10, "cost": 20},
+    ],
+}
+
 PLAYER_NAMES = ["Prince James", "Black Cobra", "Cook Curry", "The Moustache", "The Talon", "The Question", "Roman Showman", "Wasp-Man", "The Petrol"]
 POSITIONS = ["guard", "forward", "center"]
 ARCHETYPES = ["3-and-d", "floor general", "rim protector", "stretch big", "slasher", "sharpshooter", "shot creator"]
