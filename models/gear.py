@@ -1,4 +1,4 @@
-class Booster:
+class Gear:
     def __init__(self, name, points=0):
         self.name = name
         self.points = points

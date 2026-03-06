@@ -1,10 +1,11 @@
 class Game:
-    def __init__(self, team):
+    def __init__(self, team, budget):
         self.team = team
+        self.budget = budget
 
     def display(self):
         print(f"Team: {self.team.name}")
-        print(f"Budget: ${self.team.budget}")
+        print(f"Budget: ${self.budget}")
         print(f"Guard: {self.team.guard.name if self.team.guard else 'None'}")
         print(f"Forward: {self.team.forward.name if self.team.forward else 'None'}")
         print(f"Center: {self.team.center.name if self.team.center else 'None'}")

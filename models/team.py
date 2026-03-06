@@ -1,5 +1,5 @@
-from player import Player
-from support import Support
+from models.player import Player
+from models.support import Support
 
 
 class Team:

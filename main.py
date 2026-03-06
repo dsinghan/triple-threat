@@ -1,10 +1,10 @@
-from game import Game
-from team import Team
-from utils import STARTING_TEAM
+from core.game import Game
+from models.team import Team
+from data.utils import STARTING_TEAM
 
 def main():
     team = Team(STARTING_TEAM)
-    game = Game(team)
+    game = Game(team, 100)
     game.display()
 
 if __name__ == "__main__":
